@@ -1,23 +1,18 @@
 #' Paste Box Input
-#'
 #' Create a paste box input control for images.
-#'
 #' @param inputId The input slot that will be used to access the value.
 #' @param label Display label for the control.
 #' @param width The width of the paste box, e.g., '100px'.
 #' @param height The height of the paste box, e.g., '100px'.
-#'
 #' @return A Shiny tag list that creates a UI element for pasting images.
 #' @examples
 #' if (interactive()) {
 #'   library(shiny)
 #'   library(base64enc)
-#'
 #'   ui <- fluidPage(
 #'     pasteBoxInput("testInput", "Paste Image Here", "300px", "150px"),
 #'     uiOutput("image")
 #'   )
-#'
 #'   server <- function(input, output, session) {
 #'     observeEvent(input$testInput, {
 #'       if (!is.null(input$testInput) && input$testInput != "") {
@@ -27,7 +22,6 @@
 #'       }
 #'     })
 #'   }
-#'
 #'   shinyApp(ui, server)
 #' }
 #' @export

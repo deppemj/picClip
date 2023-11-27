@@ -1,11 +1,11 @@
 Package: picClip
 Type: Package
-Title: Paste Box Input for Shiny
+Title: Paste Box Input for 'shiny'
 Version: 0.1.0
 Author: Matt Deppe
 Maintainer: Matt Deppe <deppemj@gmail.com>
-Description: Provides a Shiny input widget, pasteBoxInput, 
-    that allows users to paste images directly into a Shiny 
+Description: Provides a 'shiny' input widget, pasteBoxInput, 
+    that allows users to paste images directly into a 'shiny' 
     application. The pasted images are captured as Base64 
     encoded strings and can be used within the application 
     for various purposes, such as display or further processing. 
